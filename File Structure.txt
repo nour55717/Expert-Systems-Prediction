@@ -1,0 +1,30 @@
+heart-disease-project/
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── src/
+│   ├── models/
+│   │   ├── train_model.py
+│   │   ├── compare_models.py
+│   │   └── expert_system.py
+│   │
+│   └── utils/
+│       └── data_processing.py
+│
+├── notebooks/
+│   ├── data_visualization.ipynb
+│   └── data_processing.ipynb
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│       ├── cleaned_data.csv
+│       └── accuracy_comparison.csv
+│
+├── saved_models/
+│   └── decision_tree_model.pkl
+│
+├── requirements.txt
+│
+└── README.md
